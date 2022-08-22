@@ -3,7 +3,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 from vk_api.utils import get_random_id
 from wikipedia import wikipedia
 
-vk_session = vk_api.VkApi(token="0ac7157fbe6a96742bf0acb3c58575ff1752a3ab15250d936c83a5cbc11dd8f987b3a435eeaa1df26b718")
+vk_session = vk_api.VkApi(token="")
 
 vk_long = VkLongPoll(vk_session)
 vk = vk_session.get_api()
